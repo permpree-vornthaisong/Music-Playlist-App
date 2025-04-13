@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:MusicPlaylistApp/page1.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mp23/page1.dart';
@@ -871,7 +872,12 @@ class _MyPlaylistScreenState extends State<MyPlaylistScreen> {
           ),
           // Show mini player with timeline when a song is playing or paused
           if (_currentlyPlayingPlaylistUuid != null && _currentPlaylistSongs.isNotEmpty)
-            _buildMiniPlayer(),
+            Padding(
+              padding: EdgeInsets.only(
+                bottom: MediaQuery.of(context).viewPadding.bottom,
+              ),
+              child: _buildMiniPlayer(),
+            ),
         ],
       ),
       // floatingActionButton: FloatingActionButton(
