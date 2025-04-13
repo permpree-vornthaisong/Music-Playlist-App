@@ -1,6 +1,9 @@
 ## 📽 Demo Video
 
-[![Watch the demo](  https://www.youtube.com/shorts/L5rvDJ1GhLo  )
+## 📽 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/L5rvDJ1GhLo/hqdefault.jpg)](https://youtube.com/shorts/L5rvDJ1GhLo)
+
 
 
 # 🎵 MusicPlaylistApp
