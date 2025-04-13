@@ -1,4 +1,3 @@
-## 📽 Demo Video
 
 ## 📽 Demo Video
 
